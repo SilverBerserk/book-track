@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  transition: 0.4s;
+}
+
+.App.Dark {
+  background-color: gray;
+}
+
+.App .App-header {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

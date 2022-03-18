@@ -1,0 +1,43 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+    background-color: rgb(179, 179, 179);
+
+    .book-title,
+    .book-author,
+    .book-genre {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    &:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+}
+
+.book-list {
+    cursor: pointer;
+    display: grid;
+    border: 1px solid rgba(170, 170, 170, 0.534);
+    border-bottom: 0px;
+    border-radius: 2px;
+    height: 70px;
+    align-items: center;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    &-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    &:last-child {
+        border-bottom: 1px solid rgba(170, 170, 170, 0.534);
+    }
+}

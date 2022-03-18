@@ -1,0 +1,11 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 20px;
+    justify-content: center;
+
+    &-list {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
